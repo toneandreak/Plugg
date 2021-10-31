@@ -1,0 +1,135 @@
+.column {
+  float: left;
+}
+
+.column.side {
+  width: 30%;
+}
+
+.column.middle {
+  width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side,
+  .column.middle {
+    width: 100%;
+  }
+}
+
+.dropbtn {
+  background-color: #e2f0d9;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Righteous", cursive;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #bca5c8;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  height: 50px;
+  width: auto;
+  grid-template-columns: auto;
+  grid-gap: 0px;
+  background-color: #ffffff;
+  padding: 0px;
+}
+
+h4 {
+  font-family: "Righteous", Helvetica, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.grid-container > div {
+  background-color: #ffff;
+  text-align: center;
+  padding: 0px 0;
+  font-size: 16px;
+  height: 50px;
+  width: 100px;
+  border-width: 0px;
+}
+
+.dropdown-menu {
+  grid-row-start: 0;
+  grid-row-end: 0;
+  text-align: left;
+}
+.plugg-logo {
+  grid-row-start: auto;
+  width: 100%;
+  height: auto;
+}
+
+/* About page css */
+body {
+  margin: 0;
+}
+
+.column {
+  float: center;
+  width: 23%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+h2 {
+  font-family: "Righteous", cursive;
+  text-align: center;
+}
+h3 {
+  font-family: "Righteous", cursive;
+  text-align: left;
+}
+
+/* Bilde overlay i about */
