@@ -131,5 +131,63 @@ h3 {
   font-family: "Righteous", cursive;
   text-align: left;
 }
+h5{
+  font-family: "Righteous", cursive;
+  width: 75%;
+  text-align: right;
 
+}
+
+.box {
+  float: right;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  clear: both;
+}
+
+.pink {
+  background-color: rgb(233, 158, 208);
+}
+
+.green {
+  background-color: rgb(27, 70, 27);
+}
+
+.blue {
+  background-color: rgb(96, 96, 189);
+}
+
+.grey {
+  background-color: rgb(115, 115, 129);
+}
+
+.black {
+  background-color: rgb(0, 0, 0);
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+}
+
+.red {
+  background-color: rgb(211, 55, 8);
+}
+
+.purple {
+  background-color: rgb(91, 63, 136); 
+}
+
+.yellow {
+  background-color: rgb(189, 187, 96);
+}
+
+.orange {
+  background-color: rgb(199, 97, 29);
+}
+
+.lightblue {
+  background-color: rgb(96, 163, 189);
+}
 /* Bilde overlay i about */
